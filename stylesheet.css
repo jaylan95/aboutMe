@@ -1,0 +1,122 @@
+.body{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-bottom: 100px;
+    
+}
+
+.header{
+    background-color: rgb(66, 0, 0);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-image-meneu{
+   width: 40px;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+   
+}
+.meneu-img{
+   width: 100%;
+   transition: 0.15s;
+    cursor: pointer;
+}
+.meneu-img:hover{
+    opacity: 0.5;
+    transition: 0.15s;
+}
+.POM{
+margin-left: 15px;
+transition: 0.30s;
+cursor: pointer;
+}
+.POM:hover{
+    opacity: 0.7;
+    color: red;
+    transition: 0.30s;
+}
+.image-container{
+    width: 400px;
+    
+}
+.profile-image{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.profile-image-0{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.25s;
+
+}
+.profile-image-0:hover{
+    border-radius: 25px;
+}
+.profile-image:hover{
+    border-radius: 25px;
+    cursor: not-allowed;
+}
+.image-paragraph-div{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(110, 0, 0);
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.image-paragraph-div:hover{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(148, 0, 0);
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.paragraph-div{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+  margin-right: 20px;
+    
+}
+.information-div{
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-around;
+    } 
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 5px;
+   
+}
+.p:hover{
+background-color: rgb(180, 0, 0) ;
+border-radius: 10px;
+transition: 0.25s;
+
+}
+
